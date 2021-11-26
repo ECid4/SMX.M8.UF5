@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <script type="text/javascript">
+        function validar(){
+        var psswd=document.getElementById("psswd").value;
+        var confpsswd=document.getElementById("confpsswd").value;
+        if(psswd==confpsswd){
+        return true;
+        }
+        else{
+        alert("No coincideix");
+        return false;
+        }
+        }
+        </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari d'enviament</title>
+    <style>
+        .text {
+             font-family:Verdana;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%;" border="0" bgcolor="#EFEFEF">
+        <tr bgcolor="306090">
+            <th style="color:white" colspan="7" align="left"><img align="right"src="img/gb_reload_s.gif">Enviar missatge</th>
+        </tr>
+            <form method="get">
+                <tr>
+                    <th colspan="2"><input type="hidden" value="id."></th>
+                </tr>
+                <tr>
+                    <th align="left">Nom:<input type="text" value=""></th>
+                </tr>
+                <tr>
+                    <th align="left">E-mail:<input type="text"></th>
+                </tr>
+                <tr>
+                    <th align="left">Arxiu:<input type="text"></th>
+                    <td><input type="file" value="Arxiu"></td>
+                </tr>
+                <tr>
+                    <th align="left">Imatge:<input type="text"></th>
+                    <td><input type="file" value="Imatge"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">El tamany de l'arxiu i la imatge no pot excedir els 4KBytes</td>
+                </tr>
+                <tr>
+                    <th colspan="4" align="center">Requreixo resposta:<input type="radio" name="a" value="SÍ">SÍ<input type="radio" name="a" value="NO">NO</th>
+                </tr>
+                <tr>
+                    <th colspan="2" align="center">Missatge</th>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><textarea  cols="45" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input  href="mailto:ericcidinslapineda@gmail.com" type="submit" name="Enviar" value="Enviar"><input type="reset" name="Borrar" value="Borrar"></td>
+                </tr>
+                <tr>
+                    <th align="left">Usuari:<input type="text" maxlength="8"></th>
+                </tr>
+                <tr>
+                    <th align="left">Contrasenya:<input id="psswd" type="password"></th>
+                </tr>
+                <tr>
+                    <th align="left">Repetició de la contrasenya:<input id=confpasswd type="password"><form onsubmit="return validar();"></form></th>
+                </tr>
+                <tr>
+                    <th align="left">Quins jocs t'interessen?<input type="checkbox" value="GTA5">GTA5<input type="checkbox" value="Forza 4">Forza 4<input type="checkbox" value="Subnautica">Subnautica<input type="checkbox" value="Dark Souls">Dark Souls</th>
+                </tr>
+            </form>
+    </table>
+</body>
+</html>
