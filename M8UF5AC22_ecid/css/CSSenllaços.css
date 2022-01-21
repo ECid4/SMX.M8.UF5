@@ -1,0 +1,24 @@
+a:hover{
+    color:green; text-decoration:none;
+}
+a:active{
+    color:lime 
+}
+a:link{
+    color: red; text-decoration: underline;
+}
+a:visited{
+    color:purple
+}
+body{
+    font: 100% verdana;
+}
+html{
+    background-color: yellow;
+}
+h1{
+    color: orange; size: 20px; text-align: center;
+}
+ul{
+    size: 15px;
+}
