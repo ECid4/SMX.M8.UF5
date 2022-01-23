@@ -1,0 +1,39 @@
+.boxes{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: green solid;
+    text-align:center;
+}
+#pok{
+    width: 100%;
+}
+#g{
+    border: rgb(57, 185, 57) solid 5px ;
+    margin: 0%;
+    height: 40px;
+}
+#r{
+    border: rgb(185, 2, 2) solid 5px;
+    margin: 0%;
+    height: 40px;
+}
+.green{
+    border-style: dashed;
+    border-color: green;
+    margin: 0%;
+    height: 40px;
+}
+.blue{
+    border-style: dashed;
+    border-color: rgb(67, 27, 212);
+    margin: 0%;
+    height: 40px;
+}
+.red{
+    border-style: dashed;
+    border-color: red;
+    margin: 0%;
+    height: 40px;
+}
