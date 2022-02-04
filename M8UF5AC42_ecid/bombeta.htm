@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombetes</title>
+    <script type="text/javascript" src="js/bombeta.js"></script>
+    <style>
+        div button{
+            width: 100px;
+            height: 100px;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Passa per sobre de cada bombeta per encedre-la</h1>
+    <div>
+        <img onclick="romper(this)" onmouseenter="encender(this)" onmouseleave="apagar(this)" src="img/llumoff.gif">
+        <img onclick="romper(this)" onmouseenter="encender(this)" onmouseleave="apagar(this)" src="img/llumoff.gif">
+        <img onclick="romper(this)" onmouseenter="encender(this)" onmouseleave="apagar(this)" src="img/llumoff.gif">
+    </div>
+    <h1>Presiona la tecla 1, 2 o 3</h1>
+    <div>
+        <button onkeypress="boton(this)">1</button>
+        <button onkeypress="boton2(this)">2</button>
+        <button onkeypress="boton3(this)">3</button>
+    </div>
+</body>
+</html>
