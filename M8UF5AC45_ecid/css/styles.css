@@ -1,0 +1,12 @@
+body{
+    padding: 0%;
+    margin: 5% 25% 0% 40%;
+    float: left;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/216/676/non_2x/russia-flag-decoration-background-vector.jpg);
+    background-repeat: no-repeat; background-attachment: fixed; background-size: 100% 100%;
+}
+#formus{
+    border: 5px solid black;
+    background: rgb(87,180,58);
+    background: linear-gradient(90deg, rgba(87,180,58,1) 0%, rgba(211,253,29,1) 50%, rgba(252,69,113,1) 100%);
+}

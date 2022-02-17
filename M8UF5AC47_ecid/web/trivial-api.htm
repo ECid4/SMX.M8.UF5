@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="cat">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trvial-api</title>
+    <link rel="stylesheet" href="../CSS/trivial.css">
+</head>
+
+<body onload="agafar()">
+    <div id="contingut" >
+    </div>
+    <h1>Trivial Drogues</h1>
+ 
+    <form>
+        <div class="formul">
+            <h2>Quina droga es la mes adictiva?</h2>
+            <table>
+                <tr>
+                    <td class="but"  >a) Metanfetamina</td>
+                    <td class="but" >b) Marihuana</td>
+                </tr>
+                <tr>
+                    <td class="but" >c) Cristall</td>
+                    <td class="but" >d) Cocaina</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="res"
+                        id="resp1" type="text" placeholder="Resposta">
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="comp1()" class="prova">
+                        Comprova
+                    </td>
+                    <td class="resp" id="res1"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="formul">
+            <h2>Quina droga es la mes cara?</h2>
+            <table>
+                <tr>
+                    <td class="but"  >a) Metanfetamina</td>
+                    <td class="but" >b) Hachis</td>
+                </tr>
+                <tr>
+                    <td class="but" >c) Cristall</td>
+                    <td class="but" >d) Cocaina</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="res"
+                        id="resp2" type="text" placeholder="Resposta">
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="comp2()" class="prova">
+                        Comprova
+                    </td>
+                    <td class="resp" id="res2"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="formul">
+            <h2>Quina droga es la mes perillosa?</h2>
+            <table>
+                <tr>
+                    <td class="but"  >a) Éxtasis</td>
+                    <td class="but" >b) Hachis</td>
+                </tr>
+                <tr>
+                    <td class="but" >c) Anfetaminas</td>
+                    <td class="but" >d) Cocaina</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="res"
+                        id="resp3" type="text" placeholder="Resposta">
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="comp3()" class="prova">
+                        Comprova
+                    </td>
+                    <td class="resp" id="res3"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="formul">
+            <h2>Quines drogues consumeix el Bernat?</h2>
+            <table>
+                <tr>
+                    <td class="but"  >a) Éxtasis</td>
+                    <td class="but" >b) Hachis</td>
+                </tr>
+                <tr>
+                    <td class="but" >c) Anfetaminas</td>
+                    <td class="but" >d) Totes</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="res"
+                        id="resp4" type="text" placeholder="Resposta">
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="comp4()" class="prova">
+                        Comprova
+                    </td>
+                    <td class="resp" id="res4"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="formul">
+            <h2>Quan consumeix les drogues?</h2>
+            <table>
+                <tr>
+                    <td class="but"  >a) Abans de fer l'examen</td>
+                    <td class="but" >b) En la seva casa</td>
+                </tr>
+                <tr>
+                    <td class="but" >c) Sempre</td>
+                    <td class="but" >d) En el Mercadona</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="res"
+                        id="resp5" type="text" placeholder="Resposta">
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="comp5()" class="prova">
+                        Comprova
+                    </td>
+                    <td class="resp" id="res5"></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <script src="../js/trivial-api.js"></script>
+</body>
+
+</html>
